@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.khung {
+    height: 50px;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.khungtrai {
+    float: left;
+    font-size: 145%;
+    width: 30%;
+    text-align: center;
+}
+
+.icon {
+    font-size: 140%;
+    height: 33px;
+    width: 250px;
+    margin-top: 0.25%;
+    float: right;
+}
+
+.anh {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.anhtrai {
+    width: 40%;
+    box-shadow: 3px 5px #f9d28f;
+    margin-left: 9%;
+    border: 5px;
+    border-radius: 20px;
+    float: left;
+    width: 25%;
+    height: 200px;
+    background-color: #4685E4;
+}
+
+.anhphai {
+    width: 60%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    text-align: center;
+    border: 5px;
+    border-radius: 20px;
+    background-color: aqua;
+    margin-top: 0.25%;
+    box-sizing: border-box;
+    width: 40%;
+    height: 200px;
+    margin-right: 15%;
+}
+
+.anh .anhtrai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.anh .anhtrai img {
+    display: block;
+    width: 85%;
+    height: auto;
+    margin-left: 7%;
+}
+
+.end {
+    background-color: #F1AF00;
+}
+
+.end h2 {
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.end .end1 {
+    margin-left: 35px;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.end .end2 {
+    text-decoration: none;
+    line-height: 35px;
+    font-size: 25px;
+    margin-left: 419px;
+    height: 280px;
+    width: 295px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.end .end1 .box1 {
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    outline-width: 3px;
+    outline-color: rgb(250, 171, 96);
+    outline-style: inset;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.end .end1 .box2 {
+    font-size: 150%;
+    text-align: center;
+    border-radius: 10px;
+    height: 100px;
+    width: 529px;
+    outline-width: 3px;
+    outline-color: rgb(206, 238, 118);
+    outline-style: inset;
+    padding-bottom: 70px;
+    box-sizing: border-box;
+}
+
+.end .end1 button {
+    width: 80px;
+    height: 50px;
+    border: 0px;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color: antiquewhite;
+}
